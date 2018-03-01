@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Hitung Nilai</string>
+    <string name="masukan_nilai_uts">masukan nilai UTS</string>
+    <string name="masukkan_nilai_uas">masukkan nilai UAS</string>
+    <string name="btn_proses">Proses</string>
+    <string name="txtV_nilai_uts_70">Nilai UTS (70 %)</string>
+    <string name="txt_hitung_nilai_kuliah">Hitung Nilai Kuliah</string>
+    <string name="tv_nilai_uas_30">Nilai UAS (30%)</string>
+    <string name="nilai_akhir">Nilai Akhir</string>
+    <string name="peringkat_nilai">Peringkat Nilai</string>
+    <string name="predikat_nilai">Predikat Nilai</string>
+</resources>

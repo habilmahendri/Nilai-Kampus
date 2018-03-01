@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#f2f2f2"
+    android:orientation="vertical"
+    android:paddingBottom="10dp"
+    android:paddingLeft="10dp"
+    android:paddingRight="10dp"
+    android:paddingTop="10dp"
+    tools:context="com.example.mydeveloper.hitungnilai.MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/corner"
+        android:orientation="vertical"
+        android:padding="10dp">
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/txt_hitung_nilai_kuliah"
+            android:textColor="#111" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginBottom="10dp"
+            android:background="#111" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="3dp"
+            android:text="@string/txtV_nilai_uts_70" />
+
+        <EditText
+            android:id="@+id/nilaiUas"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/corner_input"
+            android:inputType="number"
+            android:padding="5dp"
+            android:textSize="20sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="3dp"
+            android:text="@string/tv_nilai_uas_30" />
+
+        <EditText
+            android:id="@+id/nilaiUts"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/corner_input"
+            android:inputType="number"
+            android:padding="5dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="3dp"
+            android:text="@string/nilai_akhir" />
+
+        <TextView
+            android:id="@+id/nilaiAkhir"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/corner_input"
+            android:gravity="center_vertical"
+            android:padding="5dp" />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="3dp"
+            android:text="@string/peringkat_nilai" />
+
+        <TextView
+            android:id="@+id/peringkatNilai"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/corner_input"
+            android:gravity="center_vertical"
+            android:padding="5dp" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="3dp"
+            android:text="@string/predikat_nilai" />
+
+        <TextView
+            android:id="@+id/predikatNilai"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/corner_input"
+            android:gravity="center_vertical"
+            android:padding="5dp" />
+
+        <Button
+            android:id="@+id/button"
+            android:layout_width="80dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/corner_btn"
+            android:text="@string/btn_proses"
+            android:textColor="#fff" />
+
+    </LinearLayout>
+</LinearLayout>
