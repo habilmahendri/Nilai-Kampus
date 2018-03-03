@@ -20,17 +20,17 @@
         android:padding="10dp">
 
 
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="@string/txt_hitung_nilai_kuliah"
-            android:textColor="#111" />
+        <!--<TextView-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:text="@string/txt_hitung_nilai_kuliah"-->
+            <!--android:textColor="#111" />-->
 
-        <View
-            android:layout_width="match_parent"
-            android:layout_height="1dp"
-            android:layout_marginBottom="10dp"
-            android:background="#111" />
+        <!--<View-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="1dp"-->
+            <!--android:layout_marginBottom="10dp"-->
+            <!--android:background="#f2f2f2" />-->
 
         <TextView
             android:layout_width="wrap_content"
@@ -47,6 +47,17 @@
             android:inputType="number"
             android:padding="5dp"
             android:textSize="20sp" />
+        <TextView
+            android:id="@+id/warningUts"
+            android:visibility="gone"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:textColor="#ff0000"
+            android:text="Silakan Isi data Nilai UTS"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/corner_warning"
+            android:gravity="center_vertical"
+            android:padding="5dp" />
 
         <TextView
             android:layout_width="wrap_content"
@@ -66,12 +77,15 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:textStyle="bold"
             android:layout_marginBottom="3dp"
             android:text="@string/nilai_akhir" />
 
         <TextView
             android:id="@+id/nilaiAkhir"
             android:layout_width="match_parent"
+            android:text="-"
+            android:textStyle="bold"
             android:layout_height="40dp"
             android:layout_marginBottom="10dp"
             android:background="@drawable/corner_input"
@@ -83,32 +97,40 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginBottom="3dp"
+            android:textStyle="bold"
             android:text="@string/peringkat_nilai" />
 
         <TextView
             android:id="@+id/peringkatNilai"
             android:layout_width="match_parent"
             android:layout_height="40dp"
+            android:textStyle="bold"
+            android:text="-"
             android:layout_marginBottom="10dp"
             android:background="@drawable/corner_input"
             android:gravity="center_vertical"
             android:padding="5dp" />
+
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:textStyle="bold"
             android:layout_marginBottom="3dp"
             android:text="@string/predikat_nilai" />
 
         <TextView
             android:id="@+id/predikatNilai"
             android:layout_width="match_parent"
+            android:textStyle="bold"
             android:layout_height="40dp"
+            android:text="-"
             android:layout_marginBottom="10dp"
             android:background="@drawable/corner_input"
             android:gravity="center_vertical"
             android:padding="5dp" />
 
         <Button
+
             android:id="@+id/button"
             android:layout_width="80dp"
             android:layout_height="40dp"
